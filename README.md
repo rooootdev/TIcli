@@ -1,0 +1,2 @@
+# TIcli
+Become TrustedInstaller
