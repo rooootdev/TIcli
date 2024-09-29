@@ -1,19 +1,24 @@
 # TIcli
 powershell code that spawns a shell with TrustedInstaller privileges
 
-## Requirements
-- **windows**
-
 ## Usage
+### Quickstart:
+1. Open an elevated powershell window (Run as Administrator)
+2. run it using
+   ```powershell
+   iex (iwr https://roooot.dev/ps/ti.ps1)
+   ```
+
+### Manual:
 1. clone this repo
-   ```bash
+   ```powershell
    git clone https://github.com/rooootdev/TIcli.git
    cd TIcli
    ```
 2. run it using
 > [!WARNING]
 > You need to run powershell as admin to use TIcli  
-   ```bash
+   ```powershell
    powershell.exe -ExecutionPolicy Bypass TIcli.ps1
    ```
 ## Issues
